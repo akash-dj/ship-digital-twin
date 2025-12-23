@@ -1,0 +1,47 @@
+@prefix : <http://shipdt.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+# Classes (What exists in the system)
+#################################################################
+
+:RefrigerationSystem a owl:Class .
+
+:Compressor a owl:Class .
+:Condenser a owl:Class .
+:Evaporator a owl:Class .
+:Valve a owl:Class .
+:Pipe a owl:Class .
+
+:Controller a owl:Class .
+:Sensor a owl:Class .
+
+#################################################################
+# Object Properties (How things relate)
+#################################################################
+
+:feeds a owl:ObjectProperty ;
+    rdfs:domain :Pipe ;
+    rdfs:range :Valve .
+
+:regulates a owl:ObjectProperty ;
+    rdfs:domain :Valve ;
+    rdfs:range :Evaporator .
+
+:returnsTo a owl:ObjectProperty ;
+    rdfs:domain :Evaporator ;
+    rdfs:range :Compressor .
+
+:controlledBy a owl:ObjectProperty ;
+    rdfs:domain :Valve ;
+    rdfs:range :Controller .
+
+:measuredBy a owl:ObjectProperty ;
+    rdfs:domain :Evaporator ;
+    rdfs:range :Sensor .
+
+:triggers a owl:ObjectProperty ;
+    rdfs:domain :Sensor ;
+    rdfs:range :Compressor .
