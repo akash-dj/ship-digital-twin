@@ -1,5 +1,21 @@
+# Python cache
 __pycache__/
+*.pyc
+
+# Virtual environments & secrets
 .env
-*.pdf
-*.png
+venv/
+
+# Generated data
+data/
+
+# Logs
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Accidental folders
+notepad/
+python/
