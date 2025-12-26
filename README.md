@@ -1,8 +1,10 @@
-Ship Refrigeration Digital Twin – Research Prototype
+### **Ship Refrigeration Digital Twin – Research Prototype**
 
 
 
-Overview
+
+
+#### **Overview**
 
 This repository contains a research prototype developed to explore the use of
 
@@ -22,7 +24,9 @@ to support system-level reasoning.
 
 
 
-Key Features
+
+
+#### Key Features
 
 \- Knowledge Graph representation of a ship refrigeration system
 
@@ -36,7 +40,9 @@ Key Features
 
 
 
-Scope and Limitations
+
+
+#### Scope and Limitations
 
 \- The model captures selected components and control relationships
 
@@ -46,7 +52,9 @@ Scope and Limitations
 
 
 
-Research Motivation
+
+
+#### Research Motivation
 
 This project was developed as preparation for doctoral research in
 
@@ -54,7 +62,9 @@ Digital Twins, Knowledge Graphs, and trustworthy AI for maritime applications.
 
 
 
-Status
+
+
+#### Status
 
 Finalized and frozen as a validated research prototype.
 
