@@ -1,0 +1,92 @@
+```json
+[
+  {
+    "subject": "High pressure control KP5",
+    "subject_class": "Controller",
+    "predicate": "triggers",
+    "object": "compressor",
+    "object_class": "Compressor",
+    "source_page": "7"
+  },
+  {
+    "subject": "Low pressure control KP1",
+    "subject_class": "Controller",
+    "predicate": "triggers",
+    "object": "compressor",
+    "object_class": "Compressor",
+    "source_page": "7"
+  },
+  {
+    "subject": "room thermostat",
+    "subject_class": "Controller",
+    "predicate": "regulates",
+    "object": "solenoid valves",
+    "object_class": "Valve",
+    "source_page": "8"
+  },
+  {
+    "subject": "room thermostat",
+    "subject_class": "Controller",
+    "predicate": "regulates",
+    "object": "room temperature",
+    "object_class": "Sensor",
+    "source_page": "8"
+  },
+  {
+    "subject": "constant pressure valve",
+    "subject_class": "Valve",
+    "predicate": "regulates",
+    "object": "suction line",
+    "object_class": "Pipe",
+    "source_page": "8"
+  },
+  {
+    "subject": "defrosting relay",
+    "subject_class": "Controller",
+    "predicate": "triggers",
+    "object": "defrosting",
+    "object_class": "Controller",
+    "source_page": "8"
+  },
+  {
+    "subject": "defrosting temperature sensor PT100",
+    "subject_class": "Sensor",
+    "predicate": "measuredBy",
+    "object": "refrigerant temperature",
+    "object_class": "Sensor",
+    "source_page": "8"
+  },
+  {
+    "subject": "NO.1 TEMP. SENSOR FOR ROOM TEMP.",
+    "subject_class": "Sensor",
+    "predicate": "measuredBy",
+    "object": "room temp",
+    "object_class": "Sensor",
+    "source_page": "12"
+  },
+  {
+    "subject": "NO.2 TEMP. SENSOR FOR EVAP' COIL",
+    "subject_class": "Sensor",
+    "predicate": "measuredBy",
+    "object": "evap coil",
+    "object_class": "Evaporator",
+    "source_page": "12"
+  },
+  {
+    "subject": "Temp. sensor, PT100(S-5029)",
+    "subject_class": "Sensor",
+    "predicate": "measuredBy",
+    "object": "temperature",
+    "object_class": "Sensor",
+    "source_page": "3"
+  },
+  {
+    "subject": "Temp. sensor, PT100(S-5025B)",
+    "subject_class": "Sensor",
+    "predicate": "measuredBy",
+    "object": "temperature",
+    "object_class": "Sensor",
+    "source_page": "3"
+  }
+]
+```
